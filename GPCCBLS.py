@@ -15,7 +15,7 @@ from BroadLearningSystem import CCR_BLS
 import graphviz
 # from BroadLearningSystem1 import BLS
 # %%
-dataFile = 'traindata.mat'
+dataFile = 'data.mat'
 data = scio.loadmat(dataFile)
 traindata = np.double(data['trainx'])
 trainlabel = np.double(data['trainy'])
